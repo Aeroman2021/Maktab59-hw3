@@ -1,0 +1,173 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h3{
+    text-align: center;
+}
+
+h1{
+    padding: 15px;
+}
+
+h3{
+    margin: 30px;
+}
+
+.navbar{
+    background-color: rgb(60, 138, 228);
+    color: #fff;
+    height: 70px;
+    margin: 1%;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+} 
+
+
+.colored_box{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.main_content{
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+
+.background {
+    background-color: #eeeeee;
+}
+
+
+
+@media only screen and (max-width: 576px) {
+    
+    .main_1,.main_2,.main_3{
+        width: 98%;
+        margin:1%;
+        padding: 1%;
+
+    }
+
+    .box_1{
+        background-color: rgb(60, 138, 228);
+        width: 98%;
+        margin: 1%;
+        height: 30vh;
+    }
+    
+    .box_2{
+        background-color: rgb(231,187,93);
+        width: 98%;
+        margin: 1%;
+        height: 30vh;
+    }
+    
+    .box_3{
+        background-color: rgb(93, 231, 190);
+        width: 98%;
+        margin: 1%;
+        height: 30vh;
+    }
+    
+    .box_4{
+        background-color: rgb(231, 93, 127);
+        width: 98%;
+        margin: 1%;
+        height: 30vh;
+    }
+}
+
+
+@media screen and (min-width:576px) and (max-width:768px){
+
+    .main_1,.main_2{
+        width: 48%;
+        margin: 1%;
+        padding: 1%;
+
+    }
+
+    .main_3{
+        width: 98%;
+        margin:0 1%;
+        padding: 1%;
+    }
+
+    .box_1{
+        background-color: rgb(60, 138, 228);
+        width: 48%;
+        margin: 1%;
+        height: 30vh;
+    }
+    
+    .box_2{
+        background-color: rgb(231,187,93);
+        width: 48%;
+        margin: 1%;
+        height: 30vh;
+    }
+    
+    .box_3{
+        background-color: rgb(93, 231, 190);
+        width: 48%;
+        margin: 1%;
+        height: 30vh;
+    }
+    
+    .box_4{
+        background-color: rgb(231, 93, 127);
+        width: 48%;
+        margin: 1%;
+        height: 30vh;
+    }
+
+}
+
+@media screen and (min-width:768px){
+    .main_1,.main_2,.main_3{
+        width: 31.33%;
+        margin: 1%;
+        padding: 1%;
+    }
+
+    .box_1{
+        background-color: rgb(60, 138, 228);
+        width: 31.33%;
+        margin: 1%;
+        height: 30vh;
+    }
+    
+    .box_2{
+        background-color: rgb(231,187,93);
+        width: 31.33%;
+        margin: 1%;
+        height: 30vh;
+    }
+    
+    .box_3{
+        background-color: rgb(93, 231, 190);
+        width: 31.33%;
+        margin: 1%;
+        height: 30vh;
+    }
+    
+    .box_4{
+        background-color: rgb(231, 93, 127);
+        width: 98%;
+        margin: 1%;
+        height: 30vh;
+    }
+
+}
+
+
+        
